@@ -1,0 +1,20 @@
+{
+	"email":"ranjeet",
+	"firstName":"ranjeet",
+	"lastName":"patil",
+	"mobileNo":[123,456],
+	"address":{
+		"street":"mendake galli",
+		"city":"kolhapur",
+		"state":"maharashtra"
+	},
+	"primarySkill":["java","javascript","phyton"],
+	"education":[{
+		"course":"B.E",
+		"mark":74
+	},
+{
+	"course":"M.E",
+	"mark":80
+}]
+}

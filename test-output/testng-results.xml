@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-16T01:48:47 IST" name="Default suite" finished-at="2024-11-16T01:48:49 IST" duration-ms="1680">
+    <groups>
+    </groups>
+    <test started-at="2024-11-16T01:48:47 IST" name="Default test" finished-at="2024-11-16T01:48:49 IST" duration-ms="1680">
+      <class name="apiTesting.GetAllCustomer">
+        <test-method signature="payloadUsingObject()[pri:0, instance:apiTesting.GetAllCustomer@397fbdb]" started-at="2024-11-16T01:48:47 IST" name="payloadUsingObject" finished-at="2024-11-16T01:48:49 IST" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payloadUsingObject -->
+      </class> <!-- apiTesting.GetAllCustomer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
