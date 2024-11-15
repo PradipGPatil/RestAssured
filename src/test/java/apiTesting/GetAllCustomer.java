@@ -23,14 +23,14 @@ public class GetAllCustomer {
 	@Test
 	public void getAllCustomer() {
 		Response resposne = given().header("Authorization",
-				"Bearer sk_test_51QLQpYG2CXGirlGTWWqBJqMQiinKgjO1aeqog9aq5rmqHEoj6nvoZt42A0DiryiTlM1YcMxZ31kQGareoE2Bkhsd00wHvtJzyf")
+				"Bearer sk_test_51QLQ23pYG2CXGirlGTWWqsdfasBJqMQiinKgjO1aeqog9aq5rmqHEosj6nvoZt42As0DisryiTlM1YcMxZ31ksQGareoE2Bkhsd00wHvtJzyf")
 				.contentType(ContentType.JSON).get("https://api.stripe.com/v1/customers");
 		resposne.prettyPrint();
 
 	}
 //	@Test
 //	public void basicAuth() {
-//		Response response=given().auth().basic("", "sk_test_51QLQpYG2CXGirlGTWWqBJqMQiinKgjO1aeqog9aq5rmqHEoj6nvoZt42A0DiryiTlM1YcMxZ31kQGareoE2Bkhsd00wHvtJzyf")
+//		Response response=given().auth().basic("", "sk_test_51QLQ23pYG2CXGirlGTWWqsdfasBJqMQiinKgjO1aeqog9aq5rmqHEosj6nvoZt42As0DisryiTlM1YcMxZ31ksQGareoE2Bkhsd00wHvtJzyf")
 //				.contentType(ContentType.JSON).get("https://api.stripe.com/v1/customers");
 //		System.out.println("***");
 //		response.prettyPrint();
@@ -39,7 +39,7 @@ public class GetAllCustomer {
 	@Test
 	public void createCustomer() {
 		Response response = given().headers("Authorization",
-				"Bearer sk_test_51QLQpYG2CXGirlGTWWqBJqMQiinKgjO1aeqog9aq5rmqHEoj6nvoZt42A0DiryiTlM1YcMxZ31kQGareoE2Bkhsd00wHvtJzyf")
+				"Bearer sk_test_51QLQ23pYG2CXGirlGTWWqsdfasBJqMQiinKgjO1aeqog9aq5rmqHEosj6nvoZt42As0DisryiTlM1YcMxZ31ksQGareoE2Bkhsd00wHvtJzyf")
 				.contentType(ContentType.JSON).formParam("email", "pradippatil1543@gmail.com")
 				.formParam("name", "pradip").headers("Content-type", "application/x-www-form-urlencoded")
 				.post("https://api.stripe.com/v1/customers");
